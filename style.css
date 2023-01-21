@@ -1,7 +1,7 @@
 :root {
-  --background: #f5f5f5; /*body*/
+  --background: #f5f5f5;
   --background-alt: #c6c5fc;;
-  --sidebar: #2c3333; /*sidebar*/
+  --sidebar: #2c3333; 
   --sidebar-light: #3e4049;
   --primary: #395b64; 
   --secondary: #e7f6f2;
@@ -105,7 +105,7 @@ main {
   padding: 0 20px;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px;
-  flex-wrap: wrap; /*make more responsive*/
+  flex-wrap: wrap; 
 }
 
 /* Main -> Header -> Left */
@@ -120,7 +120,7 @@ main {
 
 .header-right {
   display: flex;
-  flex-wrap: wrap; /*change after*/
+  flex-wrap: wrap; 
   align-items: center;
 }
 
@@ -446,8 +446,3 @@ main {
   place-self: end;
   margin-top: 15px;
 }
-
-
-/* fix overall layout */
-/* make project mobile responsive */
-/* manage to make equal margins (gaps) for every element */
